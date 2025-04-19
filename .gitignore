@@ -1,0 +1,30 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Model and cache files
+*.pkl
+*.joblib
+*.cache
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and runtime
+*.log
+
+# Docker
+*.tar
+
+# OS-specific
+.DS_Store
+Thumbs.db
